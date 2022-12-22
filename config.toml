@@ -1,3 +1,125 @@
 baseURL = 'https://channingeggers.com/'
-languageCode = 'en-us'
-title = 'Chan - Game Programmer'
+languageCode = 'en'
+title = 'Channing Eggers - Game Programmer'
+theme = ['risotto', 'hugo-shortcode-gallery']
+
+author = "Channing Eggers"
+copyright = "Channing Eggers - 2022"
+
+defaultContentLanguage = "en"
+enableInlineShortcodes = true
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+columns = 2
+
+[params.theme]
+palette = "base16-dark"
+
+# Sidebar Information
+[params.about]
+title = "./"
+description = ""
+logo = ""
+
+# Sidebar Social Links
+[[params.socialLinks]]
+icon = "fa-brands fa-square-github"
+title = "GitHub"
+description = "GitHub"
+url = ""
+
+[[params.socialLinks]]
+icon = "fa-brands fa-square-gitlab"
+title = "GitLab"
+description = "GitLab"
+url = ""
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+description = "LinkedIn"
+url = ""
+
+[[params.socialLinks]]
+icon = "fa-solid fa-square-envelope"
+title = "Email"
+description = "Email"
+url = "mailto:example@example.com"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-square-rss"
+title = "RSS Feed"
+description = "RSS Feed"
+url = ""
+
+[[params.socialLinks]]
+icon = "fa-solid fa-compass"
+title = "Current Location"
+description = "The Netherlands"
+
+# Website Navigation
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about-me"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "cv"
+    url = "docs"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "contact"
+    weight = 40
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = true
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+  [services.twitter]
+    disableInlineCSS = true
+
