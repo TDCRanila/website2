@@ -1,4 +1,4 @@
-baseURL = 'https://channingeggers.com/'
+baseURL = 'https://tdcranila.gitlab.io/website2'
 languageCode = 'en'
 title = 'Channing Eggers - Game Programmer'
 theme = ['risotto', 'hugo-shortcode-gallery']
