@@ -1,0 +1,74 @@
+/* Cards UI */
+
+.card__block {
+	padding: .65rem;
+	margin: .1875rem 0;
+	color: var(--fg);
+	background-color: var(--off-bg);
+	border-color: var(--cards-border);
+	border-style: solid;
+	border-width: 1px 0;
+}
+
+.page__cards {
+	grid-area: cards;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	grid-row-gap: 0.5rem;
+	grid-column-gap: 0.5rem;
+}
+
+.card {
+	display: flex;
+	width: 100%;
+}
+
+.card:first-child {
+	border-top: 1px solid #333;
+}
+
+.card__box {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0;
+	border-width: 0 0 1px;
+}
+
+@media screen and (min-width: 480px) {
+	.card {
+		/* padding: .3125rem; */
+	}
+
+	.card:first-child {
+		border: 0;
+	}
+
+	.card__box {
+		border-width: 1px;
+	}
+}
+
+/* 720px */
+@media screen and (min-width: 1020px) {
+	.card--2col {
+		width: 49%;
+		/* min-width: 40%;
+		max-width: 49%; */
+	}
+
+	.card--3col {
+		width: 49%;
+	}
+}
+
+@media screen and (min-width: 860px) {
+	.card--3col {
+		width: 33.333%;
+	}
+}

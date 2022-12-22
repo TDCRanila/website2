@@ -1,0 +1,7 @@
+<article class="entry card__box card__block">
+	{{- partial "partials/featured.html" (dict "page" . "link" .RelPermalink) }}
+	<h1 class="entry__title title-excerpt"><a class="entry__title-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+	{{- with .Summary }}
+	<div class="entry__content">{{ . }}</div>
+	{{- end }}
+</article>

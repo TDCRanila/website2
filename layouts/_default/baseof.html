@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{- site.Language.Lang -}}">
+
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+
+    <body>
+        <div class="page">
+            <header class="page__header">
+                {{- partial "header.html" . -}}
+            </header>
+
+            <!-- Add Header Video Here  -->
+
+            <section class="page__body">
+                {{- block "main" . }}{{- end }}
+            </section>
+
+            <section class="page__cards">
+                {{- partial "cards.html" . -}}
+            </section>
+
+            <footer class="page__footer">
+                {{- partial "footer.html" . -}}
+            </footer>
+
+        </div>
+    </body>
+
+</html>
