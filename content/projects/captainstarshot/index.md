@@ -1,20 +1,16 @@
----
-author: Hugo Authors
-title: Captain Starshot
-date: 2019-03-09
-description: Lorem Ipsum Dolor Si Amet
-tags: 
-- "markdown"
-- "text"
-- "showcase"
-  
-featured:
-  url: "featured.png"
-  alt: A scale model of the Eiffel tower standing on a map
-  caption: Eiffel tower model
-  credit: Unknown author
-  previewOnly: false
----
++++
+title = 'Captain Starshot'
+tags = ['showcase']
+
+[featured]
+  url = 'featured.png'
+  alt = "Showcase banner of Captain Starshot"
+  caption = ""
+  credit = ""
+  previewOnly = false
++++
+
+Insert CV and other documents
 
 CAPTAIN STARSHOT
 

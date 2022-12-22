@@ -1,18 +1,8 @@
----
-author: Hugo Authors
-title: Placeholder Text
-date: 2019-03-09
-description: Lorem Ipsum Dolor Si Amet
-tags: 
-- "markdown"
-- "text"
-  
-featured:
-  url: "captainstarshot-0.png"
-  alt: A scale model of the Eiffel tower standing on a map
-  caption: Eiffel tower model
-  credit: Unknown author
-  previewOnly: false
----
++++
+title = 'Projects & Games'
+description = 'A list of all projects and games that I have worked.'
+tags = ['']
 
-Here is a list of things that I have worked on throughout my carreer.
++++
+
+Here is a list of things that I have worked on throughout school and my work carreer.
