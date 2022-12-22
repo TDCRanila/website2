@@ -52,4 +52,10 @@ hugo.linux
 .history
 .ionide
 
+### Additional
+themes/hugo-shortcode-gallery/**/*.js
+!themes/hugo-shortcode-gallery/**/*.min.js
+themes/hugo-shortcode-gallery/**/*.css
+!themes/hugo-shortcode-gallery/**/*.min.css
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,git,hugo

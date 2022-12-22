@@ -1,0 +1,11 @@
+<div class="cards">
+    {{/*  {{- range .Site.RegularPages }}  */}}
+    {{/*  {{- range where .Site.RegularPages ".Params.tags" "showcase" .Param.tags}}  */}}
+    {{ with ($.Site.GetPage (printf "/%s" "showcase")) }}
+        {{ range .Pages }}
+            <div class="card{{ if and (ge ($.Param "columns") 1) (le ($.Param "columns") 3) }} card--{{ $.Param "columns" }}col{{ else }} card--2col{{ end }}">
+            {{ .Render "card-summary" }}
+            </div>
+        {{- end }}
+    {{- end }}
+</div>
