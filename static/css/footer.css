@@ -1,0 +1,29 @@
+.page__footer {
+    color: var(--off-fg);
+    margin: 0;
+}
+
+.copyright {
+    margin: 0;
+}
+
+.page__footer p div {
+    margin: 0;
+}
+
+.footer__social-links2 {
+    padding: 0;
+    margin: 0 0 0 16px;
+}
+
+.footer__social-links-text {
+    text-decoration: none;
+}
+
+.footer__social-links li {
+    padding-bottom: 0.35rem;
+}
+
+.footer__social-links li::marker {
+    content: none;
+}
