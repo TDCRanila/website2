@@ -59,25 +59,29 @@ icon = "fa-solid fa-compass"
 title = "Current Location"
 description = "The Netherlands"
 
-[[params.footerSocialLinks]]
+# Footer Social Links
+[params.footerSocial]
+enable = true
+
+[[params.footerSocial.socialLinks]]
 icon = "fa-brands fa-square-github"
 title = "GitHub"
 description = "GitHub"
 url = ""
 
-[[params.footerSocialLinks]]
+[[params.footerSocial.socialLinks]]
 icon = "fa-brands fa-square-gitlab"
 title = "GitLab"
 description = "GitLab"
 url = ""
 
-[[params.footerSocialLinks]]
+[[params.footerSocial.socialLinks]]
 icon = "fa-brands fa-linkedin"
 title = "LinkedIn"
 description = "LinkedIn"
 url = ""
 
-[[params.footerSocialLinks]]
+[[params.footerSocial.socialLinks]]
 icon = "fa-solid fa-square-envelope"
 title = "Email"
 description = "example@example.com"
