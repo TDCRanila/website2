@@ -18,6 +18,7 @@
 
 .cards {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	grid-row-gap: 0.5rem;
 	grid-column-gap: 0.5rem;
@@ -57,7 +58,7 @@
 /* 720px */
 @media screen and (min-width: 1020px) {
 	.card--2col {
-		width: 49%;
+		width: 49.45%;
 		/* min-width: 40%;
 		max-width: 49%; */
 	}
