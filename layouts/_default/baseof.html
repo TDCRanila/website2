@@ -11,10 +11,12 @@
                 {{- partial "header.html" . -}}
             </header>
 
-            <!-- Add Header Video Here  -->
-
             <section class="page__body">
                 {{- block "main" . }}{{- end }}
+            </section>
+
+            <section class="page__showcase">
+                {{- partial "showcase.html" . }}
             </section>
 
             <section class="page__cards">

@@ -1,0 +1,38 @@
+.collapsible {
+  cursor: pointer;
+  
+  width: 100%;
+  border: none;
+  outline: 0px;
+  
+  color: var(--bg);
+  background-color: var(--logo);
+
+  font-size: medium;
+  font-weight: bold;
+  font-family: var(--font-monospace);
+}
+
+.collapsible-open, .collapsible:hover {
+  background-color: var(--highlight);
+}
+
+.collapsible:after {
+  content: '\21B4';
+  margin-left: 5px;
+}
+
+.collapsible-open:after {
+  content: "\21C0";
+}
+
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.content-showcase-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: none; /* Automatically Hide the iframe when collapsed. */
+}

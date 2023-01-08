@@ -1,0 +1,19 @@
+<script defer src="{{ "js/showcase.js" | absURL }}"></script> 
+
+{{- $videopath := $.Params.showcase.videopath }}
+{{- $vimeoid := $.Params.showcase.vimeoid }}
+{{- $youtubeid := $.Params.showcase.youtubeid }}
+
+<button class="collapsible">Display Showcase</button>
+<div class="collapsible-content">
+  {{- if $videopath }}
+      <video class="content-showcase-video" id="content-showcase-localvideo" muted loop controls>
+        <source src="{{ $videopath }}" type="video/mp4">
+      </video>  
+  {{- else if $vimeoid }}
+      <script src="https://player.vimeo.com/api/player.js"></script>
+      <iframe class="content-showcase-video" id="content-showcase-vimeovideo" src="https://player.vimeo.com/video/{{ $vimeoid }}?h=5255576b2f&dnt=1&api=1&byline=0&portrait=0&color=dc9656" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>  
+  {{- else if $youtubeid }}
+      <iframe class="content-showcase-video" id="content-showcase-youtubevideo" src="https://www.youtube-nocookie.com/embed/{{ $youtubeid }}?rel=0&showinfo=1&modestbranding=1&enablejsapi=1&origin={{$.Site.BaseURL}}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0"></iframe>
+  {{- end }}
+</div>

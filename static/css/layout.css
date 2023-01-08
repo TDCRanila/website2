@@ -7,6 +7,7 @@
     grid-template-areas: 
       "header"
       "body"
+      "showcase"
       "cards"
       "footer";
     grid-template-columns: minmax(0, 1fr); /* https://css-tricks.com/preventing-a-grid-blowout/ */
@@ -18,6 +19,7 @@
         grid-template-areas:
           "header  header"
           "body    body"
+          "showcase showcase"
           "cards   cards"
           "footer  footer";
         grid-template-columns: minmax(0, 1fr) 12rem;
@@ -73,6 +75,12 @@
 .page__aside {
     grid-area: aside;
     color: var(--off-fg);
+}
+
+.page__showcase {
+    grid-area: showcase;
+    margin-top: -20px;
+    background-color: var(--off-bg);
 }
 
 /* Footer */
