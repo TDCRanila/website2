@@ -1,0 +1,4 @@
+/* Overwriting the Shortcode-Gallery Swipebox background colour.*/
+#swipebox-overlay {
+    background: rgba(0, 0, 0, 0.90) !important;
+}

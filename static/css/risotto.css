@@ -8,6 +8,7 @@
 @import 'cards.css';
 @import 'showcase.css';
 @import 'featured.css';
+@import 'swipebox-skin.css';
 
 body {
     background-color: var(--bg);
