@@ -1,5 +1,6 @@
 .title-excerpt {
-	font-size: 1.25rem;
+	font-size: 1.125rem;
+	margin: 0.25rem 0 0 0;
 }
 
 .entry__featured {
@@ -16,6 +17,18 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.entry__content
+{
+	font-size: 14.5px;
+	line-height: 1.35rem;
+	margin-top: 0.25rem;
+}
+
+.entry__content p
+{
+	margin: 0 0 0 0;
 }
 
 /* .featured__figcaption {
