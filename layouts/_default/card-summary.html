@@ -4,4 +4,7 @@
 	{{- with .Summary }}
 	<div class="entry__content">{{ . }}</div>
 	{{- end }}
+	
+	{{- partial "partials/tags.html" . }}
+
 </article>
