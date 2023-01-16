@@ -11,6 +11,8 @@
 	--link: var(--base0A);
 	--hover: var(--base0C);
 	--highlight: var(--base0A);
+	--tag1: var(--base0F);
+	--tag2: var(--base08);
 
 	/* Logo */
 	--logo: var(--base09);

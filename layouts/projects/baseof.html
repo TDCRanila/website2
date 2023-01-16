@@ -13,9 +13,7 @@
 
             <section class="page__body">
                 {{- partial "partials/featured.html" (dict "page" . "IsSingle" true) }}
-                {{- partial "partials/tags.html" . }}
                 {{- block "main" . }}{{- end }}
-                {{- partial "partials/tags.html" . }}
             </section>
 
             <footer class="page__footer">
