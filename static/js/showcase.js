@@ -62,9 +62,15 @@ function playAndShowVideo()
     }
 }
 
-var collapsibles = document.getElementsByClassName("collapsible");   
+let closedArrowUnicode = '\u{21B4}';
+let openArrowUnicode = '\u{21C0}';
+var defaultButtonClosedValue = "Show Video Showcase" + closedArrowUnicode;
+var defaultButtonOpenValue = "Hide Video Showcase" + openArrowUnicode;
+
+var collapsibles = document.getElementsByClassName("collapsible");
 for (var it = 0; it < collapsibles.length; it++) 
 {
+    collapsibles[it].value = defaultButtonClosedValue;
     collapsibles[it].addEventListener("click", function() 
     {
         this.classList.toggle("collapsible-open");
@@ -72,11 +78,13 @@ for (var it = 0; it < collapsibles.length; it++)
         if (collapsibleContent.style.maxHeight)
         {
             pauseAndHideVideo();
+            this.value  = defaultButtonClosedValue;
             collapsibleContent.style.maxHeight = null;
         } 
         else 
         {
             playAndShowVideo();
+            this.value  = defaultButtonOpenValue;
             collapsibleContent.style.maxHeight = "100%";
         } 
     });
