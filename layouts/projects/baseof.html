@@ -5,6 +5,25 @@
         {{- partial "head.html" . -}}
     </head>
 
+    <style>
+        /*  Override Grid.css Layout */
+        .page {
+            grid-template-areas: 
+              "header" 
+              "body" 
+              "footer";
+        }
+        
+        @media (min-width: 52rem) {
+            .page {
+                grid-template-areas: 
+                "header header" 
+                "body body" 
+                "footer footer";
+            }
+        }
+    </style>
+
     <body>
         <div class="page">
             <header class="page__header">
