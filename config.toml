@@ -89,28 +89,28 @@ url = "mailto:example@example.com"
 
 # Website Navigation
 [menu]
-  [[menu.main]]
+  [[menu.customnav]]
     identifier = "about"
     name = "about-me"
     url = "/about/"
     weight = 10
 
-  [[menu.main]]
+  [[menu.customnav]]
     identifier = "docs"
     name = "cv"
-    url = "docs"
+    url = "/docs/"
     weight = 20
 
-  [[menu.main]]
+  [[menu.customnav]]
     identifier = "projects"
     name = "projects"
-    url = "/projects"
+    url = "/projects/"
     weight = 30
 
-  [[menu.main]]
+  [[menu.customnav]]
     identifier = "contact"
     name = "contact"
-    url = "contact"
+    url = "/contact/"
     weight = 40
 
 [taxonomies]
