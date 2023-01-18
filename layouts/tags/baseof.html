@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{- site.Language.Lang -}}">
+
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+
+    <style>
+        .page {
+            grid-template-areas: 
+              "header"
+              "body"
+              "footer";
+        }
+        
+        @media (min-width: 52rem) {
+            .page {
+                grid-template-areas:
+                  "header  header"
+                  "body    body"
+                  "footer  footer";
+            }
+        }
+    </style>
+
+    <body>
+        <div class="page">
+            <header class="page__header">
+                {{- partial "header.html" . -}}
+            </header>
+
+            <section class="page__body">
+                {{- block "main" . }}{{- end }}
+            </section>
+
+            <footer class="page__footer">
+                {{- partial "footer.html" . -}}
+            </footer>
+
+        </div>
+    </body>
+
+</html>
