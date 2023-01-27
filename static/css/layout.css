@@ -24,7 +24,7 @@
           "footer  footer";
         grid-template-columns: minmax(0, 1fr) 12rem;
         grid-column-gap: 2rem;
-        grid-row-gap: 2rem;
+        grid-row-gap: 1.125rem;
     }
 }
 
