@@ -103,7 +103,7 @@ url = "mailto:example@example.com"
 
   [[menu.customnav]]
     identifier = "projects"
-    name = "projects"
+    name = "all-projects"
     url = "/projects/"
     weight = 30
 
