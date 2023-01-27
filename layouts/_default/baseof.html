@@ -20,7 +20,9 @@
             </section>
 
             <section class="page__cards">
-                {{- partial "cards.html" . -}}
+                {{ $postTypes := slice "Showcase" }}
+                {{ $tags := slice "" }}
+                {{- partial "cards.html" (dict "Context" . "PagesToDisplay" .Site.Pages "FilterPagesByPostType" $postTypes "FilterPagesWithTags" $tags "DisplayInColumns" true) -}}
             </section>
 
             <footer class="page__footer">

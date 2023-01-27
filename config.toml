@@ -116,7 +116,7 @@ url = "mailto:example@example.com"
 [taxonomies]
 category = "categories"
 tag = "tags"
-series = "series"
+postType = "postType" # Showcase, Project, Article.
 
 # For hugo >= 0.60.0, enable inline HTML
 [markup.goldmark.renderer]

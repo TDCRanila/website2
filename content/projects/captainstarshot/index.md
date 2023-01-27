@@ -1,6 +1,8 @@
 +++
 title = 'Captain Starshot'
-tags = ['showcase']
+tags = ['School', 'Y3', 'Team Project', 'UE4', 'C++']
+postType = ['Showcase', 'Project']
+weight = 20
 
 [featured]
   url = 'featured.png'

@@ -9,8 +9,9 @@
         /*  Override Grid.css Layout */
         .page {
             grid-template-areas: 
-              "header" 
+              "header"
               "body" 
+              "cards"
               "footer";
         }
         
@@ -18,7 +19,8 @@
             .page {
                 grid-template-areas: 
                 "header header" 
-                "body body" 
+                "body body"
+                "cards cards"
                 "footer footer";
             }
         }
@@ -33,6 +35,12 @@
             <section class="page__body">
                 {{- partial "partials/featured.html" (dict "page" . "IsSingle" true) }}
                 {{- block "main" . }}{{- end }}
+            </section>
+
+            <section class="page__cards">
+                {{ $postTypes := slice "Project" }}
+                {{ $tags := slice "" }}
+                {{- partial "cards.html" (dict "Context" . "PagesToDisplay" .Pages "FilterPagesByPostType" $postTypes "FilterPagesWithTags" $tags "DisplayInColumns" true) -}}
             </section>
 
             <footer class="page__footer">

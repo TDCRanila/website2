@@ -1,9 +1,36 @@
+{{/*  {{ (dict "Context" . "PagesToDisplay" array "FilterPagesByPostType" slice "FilterPagesWithTags" slice "DisplayInColumns" true/false) }}  */}}
+
 <div class="cards">
-    {{ with ($.Site.GetPage (printf "/%s" "showcase")) }}
-        {{ range .Pages }}
-            <div class="card{{ if and (ge ($.Param "columns") 1) (le ($.Param "columns") 3) }} card--{{ $.Param "columns" }}col{{ else }} card--2col{{ end }}">
+    {{ $pagesToDisplay := $.PagesToDisplay }}
+    {{ $filteredPages := $.Context.Site.Pages }}
+    {{ $postTypes := $.FilterPagesByPostType }}
+    {{ $tags := $.FilterPagesWithTags }}
+    {{ $displayInColumns := $.DisplayInColumns }}
+        
+    {{ $headerScratch := newScratch }}
+    {{ $headerScratch.Set "pages" $pagesToDisplay }}
+    {{ range $tag := $tags }}
+        {{ if le (len $tag) 0 }}
+            {{ break }}
+        {{ end }}
+        {{ $tag := slice (printf "%s" $tag) }}
+        {{ $headerScratch.Set "pages" ($headerScratch.Get "pages" | intersect (where $.Context.Site.Pages "Params.tags" "intersect" $tag)) }}
+    {{ end }}
+
+    {{ range $postType := $postTypes }}
+        {{ if le (len $postType) 0 }}
+            {{ break }}
+        {{ end }}
+        {{ $postType := slice (printf "%s" $postType) }}
+        {{ $headerScratch.Set "pages" ($headerScratch.Get "pages" | intersect (where $.Context.Site.Pages "Params.postType" "intersect" $postType)) }}
+    {{ end }}
+    
+    {{ range $headerScratch.Get "pages" }}
+        {{ if $displayInColumns }} 
+            {{ $columnParam := $.Context.Param "columns"}}
+            <div class="card{{ if and (ge ($columnParam) 1) (le ($columnParam) 3) }} card--{{ $columnParam }}col{{ else }} card--2col{{ end }}"> 
+        {{ end }}
             {{ .Render "card-summary" }}
-            </div>
-        {{- end }}
-    {{- end }}
+        {{ if $displayInColumns }} </div> {{ end }}
+    {{ end }}
 </div>
