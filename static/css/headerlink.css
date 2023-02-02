@@ -1,0 +1,15 @@
+.headerlink-button {
+    display: block;
+    background-color: var(--off-bg);
+    border: 2px solid var(--logo);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 4px;
+    
+    text-align: center; 
+    text-decoration: none;
+}
+
+.headerlink-button::after {
+    content: '↗'
+}

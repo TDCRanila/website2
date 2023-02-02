@@ -1,5 +1,6 @@
 {{ define "main" }}
     <header class="content__header">
+        {{- partial "partials/headerlink.html" . }}
         {{- partial "partials/tags.html" (dict "page" . "IsSingle" true) }}
         <h1>{{ .Title | markdownify }}</h1>
     </header>
