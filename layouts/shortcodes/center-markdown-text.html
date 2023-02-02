@@ -1,3 +1,8 @@
 <div style="text-align: center;">
-    {{.Inner | markdownify }}
+    {{ $shouldMarkdownify := .Get "markdownify" | default true }}
+    {{ if $shouldMarkdownify }}
+        {{.Inner | markdownify }}
+    {{ else }}
+        {{.Inner }}
+    {{ end }}
 </div>
