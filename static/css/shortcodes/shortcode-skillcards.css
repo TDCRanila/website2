@@ -1,0 +1,38 @@
+.shortcode-skillcards-container {
+    margin: 0.25rem;
+}
+
+.skillcards-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    grid-row-gap: 0.5rem;
+    grid-column-gap: 0.5rem;
+}
+
+.skillcards-container__title {
+    padding: 0.125rem;
+    font-weight: bold;
+}
+
+.skillcard {
+    display: flex;
+    padding: 4px;
+    background-color: var(--bg);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--logo)
+}
+
+.skillcard__text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.skillcard__text::before {
+    content: "|";
+}
+
+.skillcard__image {
+    width: 25px;
+}

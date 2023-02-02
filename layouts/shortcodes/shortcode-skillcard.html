@@ -1,0 +1,7 @@
+<div class="skillcard">
+    {{ $imagePath := .Get "image" }}
+    {{ if $imagePath }}
+        <img class="skillcard__image" src="{{ .Site.BaseURL }}{{.Get "image"}}" alt="{{.Get "alt"}}">
+    {{ end }}
+    <div class="skillcard__text">{{ .Inner | markdownify }}</div>
+</div>

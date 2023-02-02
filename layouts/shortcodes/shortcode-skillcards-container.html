@@ -1,0 +1,7 @@
+<div class="shortcode-skillcards-container">
+    {{ $justifyContainer := (.Get "justify") | default "left" }}
+    <div class="skillcards-container__title">{{ .Get "category" }}</div>
+    <div class="skillcards-container" style="{{if $justifyContainer}}justify-content: {{$justifyContainer}}{{end}}">
+        {{ .Inner }}
+    </div>
+</div>
