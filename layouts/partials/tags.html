@@ -12,19 +12,19 @@
 {{- end }}
 
 {{- if $.IsSingle }}
-    <div class="entry__tags">
-        {{- with $generalTags := $.page.Page.Params.infoTags.general }}
+    {{- with $generalTags := $.page.Page.Params.infoTags.general }}
+        <div class="entry__tags">
             {{- range $tag := $generalTags }}
                 <a class="general__tag entry__tag static__btn"> {{ $tag }} </a>
             {{- end }}
-        {{- end }}
-    </div>
+        </div>
+    {{- end }}
 
-    <div class="entry__tags">
-        {{- with $gameTags := $.page.Page.Params.infoTags.game }}
+    {{- with $gameTags := $.page.Page.Params.infoTags.game }}
+        <div class="entry__tags">
             {{- range $tag := $gameTags }}
                 <a class="game__tag entry__tag static__btn"> {{ $tag }} </a>
             {{- end }}
-        {{- end }}
-    </div>
+        </div>
+    {{- end }}
 {{- end }}
