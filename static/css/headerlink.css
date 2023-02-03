@@ -6,10 +6,5 @@
     margin-top: 0.5rem;
     padding: 4px;
     
-    text-align: center; 
-    text-decoration: none;
-}
-
-.headerlink-button::after {
-    content: '↗'
+    text-align: center;
 }
