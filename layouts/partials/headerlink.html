@@ -1,5 +1,5 @@
 {{ if $.Param "headerlink" }}
     {{ $text := $.Param "headerlink.text" }}
     {{ $target := $.Param "headerlink.target" }}
-    <a class="headerlink-button" href="{{ $target }}">{{ $text }}<svg class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></svg></a> 
+    <a class="headerlink-button" href="{{ $target }}" target="_blank">{{ $text }}<svg class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></svg></a> 
 {{ end }}
