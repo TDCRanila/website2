@@ -1,24 +1,53 @@
 +++
 title = "About Me"
-description = "Information about me."
 tags = ["information"]
 url = "about"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+My name is **Channing Eggers** and I am primarily a **Gameplay & AI / NPC Programmer**. I also occationally like to work on some engine or tools related topics. Currently, I am based in **The Netherlands**.
 
-Hugo makes use of a variety of open source projects including:
+From a young age, I have liked playing games, but I also got interested in making games. At first, I started with creating simple levels in UDK (Unreal Engine 3), and I then moved to GameMaker to create my first couple of games. From there, I self-taught myself C++ and wanted to study game development as a game programmer.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I **studied at NHTV / Breda University of Applied Sciences** where I followed the **IGAD / CMGT Bachelor Program**. There I have worked on many multi-disciplinary game and or engine projects, and I graduated after having done my internship at Massive Entertainment where I worked on The Division 2.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+At the moment, I am looking for new oppurtunities in the gaming industry.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+<div id=skillcards-orginasation>
+{{< shortcode-center-markdown markdownify=false >}}
+{{< shortcode-skillcards-container category="Human Language(s)" justify="center">}}
+    {{< shortcode-skillcard url="" image="/images/du-flag128x128.png" alt="" >}} Dutch [Native] {{< /shortcode-skillcard >}}
+    {{< shortcode-skillcard url="" image="/images/gbr-flag128x128.png" alt="" >}}  English [Fluent] {{< /shortcode-skillcard >}}
+{{< /shortcode-skillcards-container >}}
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+{{< shortcode-skillcards-container category="Programming Language(s)" justify="center">}}
+    {{% shortcode-skillcard url="" image="/images/cpp-icon128x128.png" alt="" %}} C++ {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/html-icon128x128.png" alt="" %}} HTML & CSS {{% /shortcode-skillcard %}}
+{{< /shortcode-skillcards-container >}}
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+{{< shortcode-skillcards-container category="Engines & Frameworks Experience" justify="center">}}
+    {{% shortcode-skillcard url="" image="/images/ue-icon128x128.png" alt="" %}} Unreal Engine {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/snowdrop-icon128x128.png" alt="" %}} Snowdrop Engine {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/gm-icon128x128.png" alt="" %}} GameMaker[1.4] {{% /shortcode-skillcard %}}
+{{< /shortcode-skillcards-container >}}
+
+{{< shortcode-skillcards-container category="Technologies" justify="center">}}
+    {{% shortcode-skillcard url="" image="/images/vs2022-icon128x128.png" alt="" %}} Visual Studio (Code) {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/cmake-icon128x128.png" alt="" %}} CMake {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/doxygen-icon128x128.png" alt="" %}} Doxygen {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/jenkins-icon128x128.png" alt="" %}} Jenkins CI {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/hugo-icon128x128.png" alt="" %}} Hugo {{% /shortcode-skillcard %}}
+{{< /shortcode-skillcards-container >}}
+
+{{< shortcode-skillcards-container category="Source Control" justify="center">}}
+    {{% shortcode-skillcard url="" image="/images/p4v-icon128x128.png" alt="" %}} Perforce & Swarm {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/git-icon128x128.png" alt="" %}} Git {{% /shortcode-skillcard %}}
+{{< /shortcode-skillcards-container >}}
+
+{{< shortcode-skillcards-container category="Project Management Experience" justify="center">}}
+    {{% shortcode-skillcard url="" image="/images/jira-icon128x128.png" alt="" %}} Jira {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/trello-icon128x128.png" alt="" %}} Trello {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/scrum-icon128x128.png" alt="" %}} Scrum {{% /shortcode-skillcard %}}
+    {{% shortcode-skillcard url="" image="/images/kanban-icon128x128.png" alt="" %}} Kanban {{% /shortcode-skillcard %}}
+{{< /shortcode-skillcards-container >}}
+{{< shortcode-center-markdown markdownify=false >}}
+</div>
