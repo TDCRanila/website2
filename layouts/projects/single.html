@@ -2,6 +2,7 @@
     <header class="content__header">
         {{- partial "partials/headerlink.html" . }}
         {{- partial "partials/tags.html" (dict "page" . "IsSingle" true) }}
+        <hr>
         <h1 class="page_title">{{ .Title | markdownify }}</h1>
     </header>
     <div class="content__body">
