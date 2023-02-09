@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <h1 id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>
+<h1 class="page_title" id="{{ .Title | urlize }}">{{ .Title | markdownify }}</h1>
 
     {{ .Content }}
 
