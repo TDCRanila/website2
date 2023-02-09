@@ -28,25 +28,25 @@ logo = ""
 icon = "fa-brands fa-square-github"
 title = "GitHub"
 description = "GitHub"
-url = ""
+url = "https://github.com/tdcranila"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-square-gitlab"
 title = "GitLab"
 description = "GitLab"
-url = ""
+url = "https://gitlab.com/tdcranila"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-linkedin"
 title = "LinkedIn"
 description = "LinkedIn"
-url = ""
+url = "https://www.linkedin.com/in/channing-eggers"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-square-envelope"
-title = "Email"
-description = "Email"
-url = "mailto:example@example.com"
+title = "E-Mail"
+description = "E-Mail"
+url = "mailto:contact@channingeggers.com"
 
 # [[params.socialLinks]]
 # icon = "fa-solid fa-square-rss"
@@ -67,25 +67,25 @@ enable = true
 icon = "fa-brands fa-square-github"
 title = "GitHub"
 description = "GitHub"
-url = ""
+url = "https://github.com/tdcranila"
 
 [[params.footerSocial.socialLinks]]
 icon = "fa-brands fa-square-gitlab"
 title = "GitLab"
 description = "GitLab"
-url = ""
+url = "https://gitlab.com/tdcranila"
 
 [[params.footerSocial.socialLinks]]
 icon = "fa-brands fa-linkedin"
 title = "LinkedIn"
 description = "LinkedIn"
-url = ""
+url = "https://www.linkedin.com/in/channing-eggers"
 
 [[params.footerSocial.socialLinks]]
 icon = "fa-solid fa-square-envelope"
 title = "Email"
-description = "example@example.com"
-url = "mailto:example@example.com"
+description = "contact@channingeggers.com"
+url = "mailto:contact@channingeggers.com"
 
 # Website Navigation
 [menu]
