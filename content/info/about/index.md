@@ -4,13 +4,15 @@ tags = ["information"]
 url = "about"
 +++
 
-My name is **Channing Eggers** and I am primarily a **Gameplay & AI / NPC Programmer**. I also occationally like to work on some engine or tools related topics. Currently, I am based in **The Netherlands**.
+My name is **Channing Eggers** and I am primarily a **Gameplay & AI/NPC Programmer**. I occasionally like to work on some engine or tools related topics in my personnel projects. Currently, I am based in **The Netherlands**.
 
-From a young age, I have liked playing games, but I also got interested in making games. At first, I started with creating simple levels in UDK (Unreal Engine 3), and I then moved to GameMaker to create my first couple of games. From there, I self-taught myself C++ and wanted to study game development as a game programmer.
+From a young age, I have liked playing games — starting from the N64 to the Wii and then later into PC Gaming. At a later age, I also got quite interested in making games. At first, I started with creating simple levels in UDK (Unreal Engine 3), and I then moved to GameMaker to create my first couple of games. From there, I self-taught myself C++ and wanted to study game development as a game programmer.
 
-I **studied at NHTV / Breda University of Applied Sciences** where I followed the **IGAD / CMGT Bachelor Program**. There I have worked on many multi-disciplinary game and or engine projects, and I graduated after having done my internship at Massive Entertainment where I worked on The Division 2.
+I **studied at NHTV / Breda University of Applied Sciences** where I followed the **IGAD / CMGT Bachelor Program**. There I have worked on many multi-disciplinary games and engine projects, and I graduated after having done my **internship at Massive Entertainment** where I worked on **The Division 2**.
 
-At the moment, I am looking for new oppurtunities in the gaming industry.
+At the moment, I am looking for new opportunities in the gaming industry.
+
+---
 
 <div id=skillcards-orginasation>
 {{< shortcode-center-markdown markdownify=false >}}

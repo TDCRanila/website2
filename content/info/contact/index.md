@@ -21,6 +21,6 @@ type = "info/contact"
 <br>
 P.S. It is preferred to contact me via e-mail.
 <br><br>
-For additional privacy/security, my phone number is not listed here, but it can be requested.
+For additional privacy and security, my phone number is not listed here, but it can be requested.
 
 {{< /shortcode-center-markdown >}}
