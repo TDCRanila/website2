@@ -97,7 +97,7 @@ url = "mailto:contact@channingeggers.com"
 
   [[menu.customnav]]
     identifier = "docs"
-    name = "cv"
+    name = "résumé"
     url = "/docs/"
     weight = 20
 
