@@ -14,7 +14,7 @@
 
 A game developer **based in The Netherlands** with a focus on **Gameplay & AI/NPC Programming**
 <br>
-to help create fun and enjoyable video games for the masses.
+who aims to help create fun and enjoyable video games for the masses.
 <br>
 
 {{< /shortcode-center-markdown >}}
