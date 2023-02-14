@@ -12,7 +12,7 @@ credit = ""
 previewOnly = false
 
 [infoTags]
-general = ['Team Size: 7-9', 'Behaviour Trees', '2D', 'Mutli-platform' , 'Visual Studio', 'Perforce', 'Jira', 'Scrum']
+general = ['Team Size: 7-9', 'Development Time: 16 Weeks', 'Behaviour Trees', '2D', 'Mutli-platform' , 'Visual Studio', 'Perforce', 'Jira', 'Scrum']
 
 [headerlink]
 text = "Project Code - Behaviour Tree Module (Gtihub)"

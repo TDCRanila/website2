@@ -58,7 +58,7 @@ My internship started in September 2019 and concluded around June 2020. This per
   - Closely collaborated with level design on missions with cooperative NPCs.
   - Added additional NPC-related systematic control options for level designers.
 - Instigated and added more onboarding documentation for NPC/AI.
-- Occasionally worked on issues that were slightly more related to gameplay or 3C.
+- Worked on couple of issues that were slightly more related to gameplay systems and or 3C.
 
 ---
 

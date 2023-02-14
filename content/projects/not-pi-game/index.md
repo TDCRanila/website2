@@ -12,7 +12,7 @@ weight = 50
   previewOnly = false
 
 [infoTags]
-general = ['Team Size: Solo', 'Embedded Systems', 'Raspberry Pi', 'OpenGLES', 'State Machines', 'MD2 Models', 'Visual Studio', 'Perforce']
+general = ['Team Size: Solo', 'Development Time: 8 Weeks', 'Embedded Systems', 'Raspberry Pi', 'OpenGLES', 'State Machines', 'MD2 Models', 'Visual Studio', 'Perforce']
 
 [headerlink]
   text = "Project Code (Github)"
