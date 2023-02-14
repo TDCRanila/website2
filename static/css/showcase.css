@@ -4,9 +4,11 @@
   width: 100%;
   border: none;
   outline: 0px;
+  padding-top: 2px;
+  padding-bottom: 4px;
   
   color: var(--bg);
-  background-color: var(--logo);
+  background-color: var(--base06);
 
   font-size: medium;
   font-weight: bold;
