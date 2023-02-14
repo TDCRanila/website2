@@ -12,7 +12,7 @@ credit = ""
 previewOnly = false
 
 [infoTags]
-general = ['Team Size: 20-30', 'PCG Tech', 'Grammar Graphs Tool', 'Houdini', 'Visual Studio', 'Perforce', 'Jira', 'Scrum']
+general = ['Team Size: 20-30', 'Development Time: 9-10 Months', 'PCG Tech', 'Grammar Graphs Tool', 'Visual Studio', 'Perforce', 'Jira', 'Scrum']
 game = ['Singleplayer', 'Rougelike', 'Top-Down Shooter', 'Procedural Generated Levels', 'Pulp Science Fiction']
 
 [headerlink]
@@ -23,6 +23,8 @@ target = "https://store.steampowered.com/app/1037410/Captain_Starshot/"
 
 '*Captain Starshot*' was **a year-long student project** made during my 3rd school year. The game is a **Roguelike Top-Down Shooter** with **Procedural Generation** featuring space exploration and ship boarding. It is heavily inspired by old *Pulp Science Fiction* comics from the 1920s-1940s.
 <!--more-->
+
+The game was released on [Steam](https://store.steampowered.com/app/1037410/Captain_Starshot/) on the 9th of July 2019 after a period of Early Access.
 
 ---
 
