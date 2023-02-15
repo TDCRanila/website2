@@ -6,11 +6,13 @@ url = "about"
 
 My name is **Channing Eggers** and I am primarily a **Gameplay & AI/NPC Programmer**. I occasionally like to work on some engine or tools related topics in my personnel projects. Currently, I am based in **The Netherlands**.
 
-From a young age, I have liked playing games — starting from the N64 to the Wii and then later into PC Gaming. At a later age, I also got quite interested in making games. At first, I started with creating simple levels in UDK (Unreal Engine 3), and I then moved to GameMaker to create my first couple of games. From there, I self-taught myself C++ and wanted to study game development as a game programmer.
+Playing games has always been a thing that I liked doing from a young age. Starting from the N64 to the DS & Wii and now PC & Switch. 
 
-I **studied at NHTV / Breda University of Applied Sciences** where I followed the **IGAD / CMGT Bachelor Program**. There I have worked on many multi-disciplinary games and engine projects, and I graduated after having done my **internship at Massive Entertainment** where I worked on **The Division 2**.
+When I got older, I also got quite interested in the making of games. At first, I started with creating simple levels in '*UDK*' *(Unreal Engine 3)* and toying around with its '*Kismet*' system. I then moved on to '*GameMaker*' to create my first couple of games. From there, I self-taught myself C++ and wanted to study game development as a game programmer.
 
-At the moment, I am looking for new opportunities in the gaming industry.
+I **studied at Breda University of Applied Sciences** where I followed the **[Creative Media & Game Technology](https://www.buas.nl/en/programmes/creative-media-and-game-technologies)** bachelor programme. *(Formerly, this was known as NHTV IGAD.)* There I have worked on many [multi-disciplinary game projects and engines](/projects/). And after four years, I graduated after having done my **internship at Massive Entertainment - A Ubisoft Studio** where I worked on '**The Division 2**'.
+
+Currently, I am looking for new opportunities in the gaming industry.
 
 ---
 
