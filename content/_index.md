@@ -1,8 +1,8 @@
 +++
 [showcase]
+    videopath = ''
     vimeoid = ''
-    youtubeid = ''
-    videopath = 'header-video.mp4'
+    youtubeid = 'lIiFoI0YpOg'
     
 +++
 
