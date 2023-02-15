@@ -13,7 +13,27 @@
   {{- else if $vimeoid }}
       <script src="https://player.vimeo.com/api/player.js"></script>
       <iframe class="content-showcase-video" id="content-showcase-vimeovideo" src="https://player.vimeo.com/video/{{ $vimeoid }}?h=5255576b2f&dnt=1&api=1&byline=0&portrait=0&color=dc9656" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>  
-  {{- else if $youtubeid }}
-      <iframe class="content-showcase-video" id="content-showcase-youtubevideo" src="https://www.youtube-nocookie.com/embed/{{ $youtubeid }}?rel=0&showinfo=1&modestbranding=1&enablejsapi=1&origin={{$.Site.BaseURL}}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0"></iframe>
+  {{- else if $youtubeid }}    
+        <div class="content-showcase-video" id="content-showcase-youtubevideo"></div>    
+        <script>
+            var scriptTag = document.createElement('script');
+            scriptTag.src = "https://www.youtube.com/iframe_api";
+
+            var scriptInsertPlacement = document.getElementById("content-showcase-youtubevideo");
+            scriptInsertPlacement.parentNode.insertBefore(scriptTag, scriptInsertPlacement);
+
+            var player;
+            function onYouTubeIframeAPIReady() 
+            {
+              player = new YT.Player('content-showcase-youtubevideo', 
+              {
+                width: '100%',
+                height: '100%',
+                videoId: '{{ $youtubeid }}',
+                playerVars: { 'playsinline': 1, 'rel': 0, 'showinfo': 1, 'modestbranding': 1, 'origin': '{{ $.Site.BaseURL }}'  },
+                events: { }
+              });
+            }
+        </script>
   {{- end }}
 </div>
