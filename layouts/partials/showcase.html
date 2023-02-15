@@ -7,7 +7,7 @@
 <input onclick="func()" class="collapsible" type="button" value=""></input>
 <div class="collapsible-content">
   {{- if $videopath }}
-      <video class="content-showcase-video" id="content-showcase-localvideo" muted loop controls>
+      <video class="content-showcase-video" id="content-showcase-localvideo" controls>
         <source src="{{ $videopath }}" type="video/mp4">
       </video>  
   {{- else if $vimeoid }}
