@@ -8,4 +8,6 @@ Below you can find my résumé. Alternatively, you can view or download it direc
 
 ---
 
-<embed src="{{< shortcode-static-resource >}}/files/ChanningEggers-Resume.pdf" width="100%" style="aspect-ratio: 32/45;">
+<div style="aspect-ratio: 32/45;">
+    {{< shortcode-pdf-embed file="/files/ChanningEggers-Resume.pdf" >}}
+</div>
