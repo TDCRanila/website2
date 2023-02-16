@@ -23,8 +23,11 @@ function pauseAndHideVideo()
     var ytIframe = document.getElementById("content-showcase-youtubevideo");
     if (ytIframe)
     {
-        var youtubeIFrameCommand = 'pauseVideo'
-        ytIframe.contentWindow.postMessage('{"event":"command","func":"' + youtubeIFrameCommand + '","args":""}', '*');
+        if (ytIframe.contentWindow)
+        {
+            var youtubeIFrameCommand = 'pauseVideo'
+            ytIframe.contentWindow.postMessage('{"event":"command","func":"' + youtubeIFrameCommand + '","args":""}', '*');
+        }
         ytIframe.style.display = 'none'
         return;
     }
@@ -55,8 +58,11 @@ function playAndShowVideo()
     var ytIframe = document.getElementById("content-showcase-youtubevideo");
     if (ytIframe)
     {
-        var youtubeIFrameCommand = 'playVideo'
-        ytIframe.contentWindow.postMessage('{"event":"command","func":"' + youtubeIFrameCommand + '","args":""}', '*');
+        if (ytIframe.contentWindow)
+        {
+            var youtubeIFrameCommand = 'playVideo'
+            ytIframe.contentWindow.postMessage('{"event":"command","func":"' + youtubeIFrameCommand + '","args":""}', '*');
+        }
         ytIframe.style.display = "block"
         return;
     }
