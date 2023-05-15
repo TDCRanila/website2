@@ -28,9 +28,7 @@ general = ['Team Size: Solo', 'Development Time: 8 Weeks', 'Embedded Systems', '
 ---
 
 ## Project Details
-The PiGame project was more of a tech-demo showing of a C++ custom framework and a small game on the Raspberry Pi. 
-
-The project taught me basic engine structure and it improved my C++ skills. Some of the code and decisions were definitely questionable, but making mistakes is fine, as long that you learn from them.
+The PiGame project was more of a tech-demo showing of a C++ custom framework and a small game on the Raspberry Pi. It taught me basic engine structure and it helped improve my C++ skills. Some of the code and decisions were definitely questionable, but making mistakes is fine, as long that you learn from them.
 
 The game itself is fairly minimal as it was made quickly, but shows functional gameplay on the system. The game itself was inspired by the old *DOOM* and *Quake* games.
 
@@ -47,7 +45,7 @@ The game itself is fairly minimal as it was made quickly, but shows functional g
   - Target-Based Progrmaming
 - Loading & Animating of [[MD2s Models]](https://en.wikipedia.org/wiki/MD2_(file_format))
 - Implemented a 'Stack-Based Finite State Machine'.
-- Implemented raycasting.
+- Implemented Basic (Raycasting) Collision Detection.
 
 ---
 

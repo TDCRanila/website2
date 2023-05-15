@@ -4,11 +4,11 @@ tags = ["information"]
 url = "about"
 +++
 
-My name is **Channing Eggers** and I am primarily a **Gameplay & AI/NPC Programmer**. I occasionally like to work on some engine or tools related topics in my personnel projects. Currently, I am based in **The Netherlands**.
+My name is **Channing Eggers** and I am primarily a **Gameplay & AI/NPC Programmer**. I occasionally like to work on some engine or tools related topics in my personal projects. Currently, I am based in **The Netherlands**.
 
-Playing games has always been a thing that I liked doing from a young age. Starting from the N64 to the DS & Wii and now PC & Switch. 
+I have always liked playing games from a young age. Starting from the N64 to the DS & WII and now mostly PC & Switch. Then when I got older, I also got quite interested in the making of games. 
 
-When I got older, I also got quite interested in the making of games. At first, I started with creating simple levels in '*UDK*' *(Unreal Engine 3)* and toying around with its '*Kismet*' system. I then moved on to '*GameMaker*' to create my first couple of games. From there, I self-taught myself C++ and wanted to study game development as a game programmer.
+At first, I started with creating simple levels in '*UDK*' *(Unreal Engine 3)* and toying around with its '*Kismet*' system. I then moved on to '*GameMaker*' to create my first couple of games. From there, I self-taught myself C++ and wanted to study game development as a game programmer.
 
 I **studied at Breda University of Applied Sciences** where I followed the **[Creative Media & Game Technology](https://www.buas.nl/en/programmes/creative-media-and-game-technologies)** bachelor programme. *(Formerly, this was known as NHTV IGAD.)* There I have worked on many [multi-disciplinary game projects and engines](/projects/). And after four years, I graduated after having done my **internship at Massive Entertainment - A Ubisoft Studio** where I worked on '**The Division 2**'.
 

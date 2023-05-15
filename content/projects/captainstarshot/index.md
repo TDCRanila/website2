@@ -31,13 +31,13 @@ The game was released on [Steam](https://store.steampowered.com/app/1037410/Capt
 ## Role(s) & Main Contributions:
 
 ### **General**
-- Was the main person for Perforce, Engine, and Technical support. 
+- Was the main person for Perforce, Unreal Engine, and General Technical support. 
 - Instigated and created the 'Game Soundtrack Video'. [[Watch Here]](https://www.youtube.com/watch?v=8nsFsbG5Lqc)
 
 ### **Gameplay Programmer**
 - Prototyped some early gameplay concepts.
 - Implemented the 'Dynamic Mini-map System'. (In close collaboration with the UI/UX designer.)
-- Implemented the 'Dynamic Music System'.
+- Implemented the 'Dynamic Music System' (In close collaboration with the Audio designer.)
 - Assisted with various gameplay tasks.
 
 ### **Procedural Programmer**
