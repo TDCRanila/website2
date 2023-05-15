@@ -28,9 +28,9 @@ weight = 10
 ---
 
 ## Internship
-During my internship as an **Junior AI/Gameplay Programmer**, I joined the **AI/NPC team** which was part of the gameplay department. This was on-site in Sweden, but the last couple of months were remote due to COVID policies.
+During my internship as an **Junior AI/Gameplay Programmer**, I joined the **AI/NPC team** which was part of the gameplay department. This was on-site in Sweden (Mälmo), but the last couple of months were remote due to COVID policies.
 
-I would join the The Division project when it had already launched, and thus I worked on several post-launch updates. Though for the development of WoNY, I was part of the majority of it — for both feature work and periods of bug-fixing & polishing.
+I joined *The Division 2* project when it had already launched prior that year. And because of that, I have worked on several post-launch updates for the base game. Although, for the development of the expansion - *Warlords of New York*, I took part in the majority of its development. Doing both feature work and periods of (post-launch) bug-fixing & polishing.
 
 My internship started in September 2019 and concluded around June 2020. This period can be split up into multiple parts:
 <br>
@@ -44,29 +44,29 @@ My internship started in September 2019 and concluded around June 2020. This per
 ## Role(s) & Main Responsibilities
 ### AI/NPC Gameplay Programmer
 #### General:
-  - Was a full member of the NPC team, joining in sprint reviews, meetings, play-tests, etc.
-  - Worked on title updates for The Division 2 and worked on the WoNY expansion.
+  - Was a full member of the NPC team, joining in stand-ups, sprint reviews, meetings, play-tests, fika etc.
+  - Worked on post-launch updates for The Division 2 base game and its expansion.
   - Was responsible for NPC and AI Systems within The Division 2.
-    - Debugging, Bug-Fixing & Polishing of systems.
-    - NPC Behaviour Trees, Detection, Motion Planning, and more.
+    - Debugging, bug-fixing & polishing of systems.
+    - NPC Behaviour Trees, Detection Systems, Motion Planning, and more.
   - Helping (level) designers regarding NPCs.
   - Monitoring and resolving live server issues & crashes especially regarding NPCs.
 
 #### Additional details:
 - Worked on the 'WoNY Intro Mission' and adding additional NPC cooperative behaviour.
-  - Specifically working on Kelso. She is an NPC that meets up with the player, and she guides & fights alongside them through the mission.
+  - Specifically working on Kelso, who is an NPC that meets up with the player. She guides & fights alongside you throughout the mission.
   - Closely collaborated with level design on missions with cooperative NPCs.
   - Added additional NPC-related systematic control options for level designers.
 - Instigated and added more onboarding documentation for NPC/AI.
-- Worked on couple of issues that were slightly more related to gameplay systems and or 3C.
+- Worked on several issues that were slightly more related to gameplay systems or 3C.
 
 ---
 
 ## Learnings
-- With having worked on The Division 2 and WoNY — it being my first AAA commercial product that I have been a part of — I have learned a whole lot from that experience. It being a live service game was interesting and also a valuable learning experience.
-- I noticed that school has prepared me well for the game industry.
-- That I should make sure to try and keep a better balance between making things fun for the player and perfecting of systems/features.
-- To make sure to keep a healthy work-life balance as it is important for mental health.
+- I have learned a lot from working The Division 2 and Warlords of New York. As it was my first AAA commerical product that I have been a part of. It being a live service game was also an interesting yet valuable learning experience.
+- I did notice that my school had prepared me well for the game industry as integrating into the team went smooth and without issue.
+- That I should make sure to try and keep a better balance between making things fun for the player and perfecting of systems/code/features.
+- To make sure to keep a healthy work-life balance as it is important for physical & mental health.
 
 ---
 
